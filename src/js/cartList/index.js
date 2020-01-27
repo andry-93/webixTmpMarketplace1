@@ -38,5 +38,5 @@ export const cartList = {
 		{id: 4, title: "Shoes 4", inStock: false, cost: 45, src: "./assets/img/Shoes_1.png"},
 		{id: 5, title: "Shoes 5", inStock: true, cost: 62, src: "./assets/img/Shoes_2.png"},
 		{id: 6, title: "Shoes 6", inStock: true, cost: 53, src: "./assets/img/Shoes_3.png"}
-	],
+	]
 };
