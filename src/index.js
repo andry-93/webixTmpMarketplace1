@@ -19,8 +19,7 @@ webix.ready(() => {
 		cols: [
 			{},
 			{
-				gravity:3,
-				minWidth:960,
+				width: 1420,
 				css: {"background-color": "#ebedf0"},
 				cols: [
 					{
