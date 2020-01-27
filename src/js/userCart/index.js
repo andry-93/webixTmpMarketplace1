@@ -1,12 +1,12 @@
 import "./style.scss";
 
 export const userCart = {
-	css: {"background-color": "#fff"},	// move to styles
+	css: "white",
 	padding: 10,
 	rows: [
 		{
 			view: "template",
-			data: {name: "Jack Smith", src: "../../assets/img/user.png", balance:"447,29$"},
+			data: {name: "Jack Smith", src: "../../assets/img/user.png", balance: "447,29$"},
 			css: "userCart",
 			height: 180,
 			borderless: true,
