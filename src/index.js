@@ -9,7 +9,6 @@ import {userCart} from "./js/userCart";
 import "./assets/scss/main.scss";
 
 webix.ready(() => {
-	// uncomment these lines after undating webpack config
 	if (!webix.env.touch && webix.env.scrollSize) { webix.CustomScroll.init(); }
 
 	webix.ui({
