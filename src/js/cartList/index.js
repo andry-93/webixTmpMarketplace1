@@ -2,12 +2,11 @@ import "./style.scss";
 
 export const cartList = {
 	view: "dataview",
-	scroll: "auto",
+	scroll: true,
 	css: "cartList",
-	select: false,
 	borderless: true,
 	xCount: 3,
-	item: {
+	type: {
 		height: 240,
 		width: "auto",
 		template(obj) {
@@ -40,5 +39,4 @@ export const cartList = {
 		{id: 5, title: "Shoes 5", inStock: true, cost: 62, src: "./assets/img/Shoes_2.png"},
 		{id: 6, title: "Shoes 6", inStock: true, cost: 53, src: "./assets/img/Shoes_3.png"}
 	],
-	datatype: "json"
 };
