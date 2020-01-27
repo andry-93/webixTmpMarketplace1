@@ -1,11 +1,10 @@
 export const cartToolbar = {
 	view: "toolbar",
-	type: "header",
 	borderless: true,
 	margin: 10,
 	paddingX: 10,
 	paddingY: 14,
-	css: {"background-color": "#F4F5F9"},
+	css: {"background-color": "#F4F5F9"},	// move to styles
 	cols: [
 		{
 			view: "label",

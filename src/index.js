@@ -1,4 +1,3 @@
-import "./libs/webix/webix.css";
 import "./libs/fontawesome-free-5.12.0-web/css/all.css";
 
 import {cartList} from "./js/cartList";
@@ -9,35 +8,43 @@ import {userCart} from "./js/userCart";
 // SCSS
 import "./assets/scss/main.scss";
 
-webix.ui({
-	type: "space",
-	cols: [
-		{},
-		{
-			width: 1420,
-			css: {"background-color": "#ebedf0"},
-			cols: [
-				{
-					width: 250,
-					margin: 10,
-					rows: [
-						userCart,
-						leftMenu
-					]
-				},
-				{
-					rows: [
-						cartToolbar,
-						{
-							cols: [
-								cartList
-							]
-						}
+webix.ready(() => {
 
-					]
-				}
-			]
-		},
-		{}
-	]
+	// uncomment these lines after undating webpack config
+	// if (!webix.env.touch && webix.env.scrollSize)
+	// 	webix.CustomScroll.init();
+
+	webix.ui({
+		type: "space",
+		cols: [
+			{},
+			{
+				gravity:3,
+				minWidth:960,
+				css: {"background-color": "#ebedf0"},
+				cols: [
+					{
+						width: 250,
+						margin: 10,
+						rows: [
+							userCart,
+							leftMenu
+						]
+					},
+					{
+						rows: [
+							cartToolbar,
+							{
+								cols: [
+									cartList
+								]
+							}
+
+						]
+					}
+				]
+			},
+			{}
+		]
+	});
 });
