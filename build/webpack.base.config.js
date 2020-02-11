@@ -108,10 +108,6 @@ module.exports = {
 	},
 
 	plugins: [
-		new webpack.ProvidePlugin({
-			webix: `${PATHS.src}/libs/webix/webix`
-		}),
-
 		new MiniCssExtractPlugin({
 			filename: `${PATHS.assets}css/[name].[hash].css`
 		}),

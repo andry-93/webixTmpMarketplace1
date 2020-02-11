@@ -1,11 +1,12 @@
+import "./style.scss";
+
 export const cartToolbar = {
 	view: "toolbar",
-	type: "header",
 	borderless: true,
 	margin: 10,
 	paddingX: 10,
 	paddingY: 14,
-	css: {"background-color": "#F4F5F9"},
+	css: "cart_toolbar",
 	cols: [
 		{
 			view: "label",
