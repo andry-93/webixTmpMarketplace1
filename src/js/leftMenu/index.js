@@ -1,4 +1,3 @@
-import "@mdi/font/scss/materialdesignicons.scss";
 import "./style.scss";
 
 export const leftMenu = {
