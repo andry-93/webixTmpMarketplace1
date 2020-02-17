@@ -10,7 +10,7 @@ export const cartList = {
 		height: 240,
 		width: "auto",
 		template(obj) {
-			const edit = "<div class='edit_item'><i class='fas fa-pen'></i></div>";
+			const edit = "<div class='edit_item'><i class='mdi mdi-pencil'></i></div>";
 
 			const html = `
 				<div class='overall'>

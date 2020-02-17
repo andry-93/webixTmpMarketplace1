@@ -15,10 +15,10 @@ export const leftMenu = {
 		}
 	},
 	data: [
-		{id: "1", value: "My products", icon: "fas fa-list-ul"},
-		{id: "2", value: "My Sales", icon: "fas fa-percent"},
-		{id: "3", value: "My disputes", icon: "fas fa-envelope-open-text"},
-		{id: "4", value: "Edit profile", icon: "fas fa-user-edit"},
-		{id: "5", value: "Log Out", icon: "fas fa-sign-out-alt"}
+		{id: "1", value: "My products", icon: "mdi mdi-format-list-bulleted"},
+		{id: "2", value: "My Sales", icon: "mdi mdi-brightness-percent"},
+		{id: "3", value: "My disputes", icon: "mdi mdi-wechat"},
+		{id: "4", value: "Edit profile", icon: "mdi mdi-account-edit"},
+		{id: "5", value: "Log Out", icon: "mdi mdi-logout"}
 	]
 };

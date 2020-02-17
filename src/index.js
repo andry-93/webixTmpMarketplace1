@@ -1,5 +1,4 @@
-import "./libs/fontawesome-free-5.12.0-web/css/all.css";
-
+import "@mdi/font/scss/materialdesignicons.scss";
 import {cartList} from "./js/cartList";
 import {cartToolbar} from "./js/cartToolbar";
 import {leftMenu} from "./js/leftMenu";
