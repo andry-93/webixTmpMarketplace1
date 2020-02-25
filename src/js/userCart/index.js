@@ -1,5 +1,3 @@
-import "./style.scss";
-
 export const userCart = {
 	css: "white",
 	padding: 10,

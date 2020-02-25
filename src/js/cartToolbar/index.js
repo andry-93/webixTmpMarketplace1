@@ -1,5 +1,3 @@
-import "./style.scss";
-
 export const cartToolbar = {
 	view: "toolbar",
 	borderless: true,

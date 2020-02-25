@@ -1,11 +1,10 @@
-import "@mdi/font/scss/materialdesignicons.scss";
 import {cartList} from "./js/cartList";
 import {cartToolbar} from "./js/cartToolbar";
 import {leftMenu} from "./js/leftMenu";
 import {userCart} from "./js/userCart";
 
 // SCSS
-import "./assets/scss/main.scss";
+import "./styles/main.scss";
 
 webix.ready(() => {
 	if (!webix.env.touch && webix.env.scrollSize) { webix.CustomScroll.init(); }

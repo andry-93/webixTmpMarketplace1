@@ -1,5 +1,3 @@
-import "./style.scss";
-
 export const cartList = {
 	view: "dataview",
 	scroll: true,

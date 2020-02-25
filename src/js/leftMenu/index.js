@@ -1,5 +1,3 @@
-import "./style.scss";
-
 export const leftMenu = {
 	view: "menu",
 	borderless: true,
