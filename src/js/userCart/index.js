@@ -4,7 +4,7 @@ export const userCart = {
 	rows: [
 		{
 			view: "template",
-			data: {name: "Jack Smith", src: "../../assets/img/user.png", balance: "447,29$"},
+			data: {name: "Jack Smith", src: "./assets/img/user.png", balance: "447,29$"},
 			css: "userCart",
 			height: 180,
 			borderless: true,
